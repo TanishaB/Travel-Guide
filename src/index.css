@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#navlink{
+  color: black;
+  padding: 15px;
+  font-family:cursive;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration:none;
+}
+
+.intro{
+  margin-top: 60px;
+  color: white;
+  font-size: 15px;
+  text-align: justify;
+}
+.Heading{
+  text-align: center;
+  font-family:cursive;
+  color: white;
+  font-weight: bold;
+
+}
+.bgHome{
+ background-color: black;
+}
+
+.videoStyle{
+  margin-top: 30px;
+}
+
+.imgcss{
+  width: 300px;
+  height: 230px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+footer{
+  margin-top: 100px;
+  background-color: #ffcc00;
+}
+
+.faIcons{
+  color: black;
+  padding: 20px;
+}
+
+.socialMedia{
+  padding: 30px;
+  display: block;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+
+Table{
+  margin-top: 100px;
+}
+
+.regions{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 80px;
+}
+
+.regions:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+.cardcss{
+  text-align: justify;
+}
+
+.bgregion{
+  /*background-image: url(/public/regionbackground.jpg);*/
+  background-color: black;
+  background-size: cover;
+}
+
+.contactbg{
+  background-image: url(/public/Contact.JPG);
+  background-size: cover;
+}
+
+form{
+  background-color: white;
+  border-radius: 30px;
+  display: block;
+  margin: 50px;
+  margin-top: 40px;
+  width: 500px;
+  padding: 50px;
+}
+
+.aboutcss{
+  color:white;
+  text-align: justify;
+}
+.aboutimg{
+  width:470px;
+  height:550px
+}
